@@ -1,0 +1,5 @@
+rgb(222 192 113) golden color
+
+#29010b burgundy
+
+font:  Garamond, "Times New Roman", serif;

@@ -1,0 +1,90 @@
+.container {
+  background-image: linear-gradient(rgba(30, 1, 8, 0.7), rgba(0, 0, 0, 0.7)), url('./components/background.jpg');
+  backdrop-filter: blur(8px);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.big-message {
+  font-family: Garamond, "Times New Roman", serif;
+  color: rgb(173, 150, 92);
+  font-size: 35px;
+  font-style: oblique;
+  margin-top: 5%;
+  margin-left: 1%;
+}
+
+.chat-toggle-button {
+  position: absolute;
+  bottom: 40px;
+  right: 50px;
+  background-color: rgba(173, 150, 92, 0.8);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: Garamond, "Times New Roman", serif;
+  transition: background-color 0.3s ease;
+  z-index: 10;
+}
+
+.chat-toggle-button:hover {
+  background-color: rgba(173, 150, 92, 1);
+}
+
+.chatbox-wrapper {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 350px;
+  height: 500px;
+  background-color: rgba(173, 150, 92, 0.95); /* Golden background */
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 20;
+  overflow: hidden;
+}
+
+.chatbox-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 10px;
+  background-color: transparent; /* Transparent so gold background shows */
+}
+
+.close-chat {
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: white; /* White X icon */
+}
+
+.citations{
+   color:rgb(173, 150, 92);
+   list-style: none;
+   padding-left: 17px;
+}
+.citationHead{
+  font-size: 15px;;
+}
+.citationContent{
+  font-size: 10px;
+  font-style: italic;
+}
+.authors{
+  font-size: 17px;
+  color:rgb(173, 150, 92);
+  margin-top: 5px;
+  margin-bottom: 120px;
+  margin-left: 15px;
+  font-family: Garamond, "Times New Roman", serif;;
+}

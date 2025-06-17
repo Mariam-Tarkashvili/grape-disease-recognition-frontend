@@ -1,0 +1,27 @@
+
+
+nav{
+    width: 100vw;
+    height: 15%;
+    background-color: #29010b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position:sticky;
+}
+
+.logo{
+    height: 80%;
+    margin-left: 1%;
+}
+.title{
+    color: rgb(222 192 113);
+    margin-right: 10%;
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 100%;
+}
+
+.title:hover{
+    color:rgb(223, 204, 156);
+}
