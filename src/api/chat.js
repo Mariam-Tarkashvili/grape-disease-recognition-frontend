@@ -1,4 +1,3 @@
-// src/api/chat.js
 import axios from 'axios';
 
 export const sendToBackend = async (message, file) => {
@@ -9,7 +8,7 @@ export const sendToBackend = async (message, file) => {
   }
 
   try {
-    const response = await axios.post("http://127.0.0.1:5000/chat", formData, {
+    const response = await axios.post("https://grape-leaf-api-1.onrender.com/chat", formData, {
       headers: {
         "Content-Type": "multipart/form-data",
       },
